@@ -1,6 +1,7 @@
 #ifndef IRC_SOCKET_H
 #define IRC_SOCKET_H
 
+#include <unistd.h>
 #include <stdlib.h>
 
 int get_socket(const char* host, const char* port);
